@@ -1,0 +1,51 @@
+.main-title{
+    font-size: 22px;
+  }
+
+.bor-clr{
+    border: 1px solid #000000 !important;
+    background-color: #fcf8f0;
+}
+.row bor-clr spacing{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.title{
+   
+    font-size: 14px;
+    font-weight: 700;padding: 5px 10px;
+}
+.sub-title{
+    font-size: 12px;margin-bottom: 10px; margin-top: 10px;
+}
+.title-font{
+    font-size: 12px;
+    color: #000000;
+}
+.bor-clr-rht{
+    border-right: 1px solid #000000;
+  }
+
+ 
+ #spacing{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ #billingspacing
+ {
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ #nameaddress
+ {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ #outertableBody
+ {
+    height:1648px; 
+    weight:1099px;
+ }
+ 

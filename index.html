@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Balaboina Kiran Kuamar">
+    <title>FirstHealth Provider Portal</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="./assets/login/assets/css/bootstrap.min.css">
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Custom CSS -->
+    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./assets/login/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  
+</head>
+
+<body>
+    <section class="login-img-div">
+        <div class="row">
+            <div class="col-lg-8 side-img">
+                <img src="assets/images/login-page-bg.png" class="login-img" alt="">
+            </div>
+            <div class="col-lg-4">
+                <div class="login_form_box">
+                    <img src="./assets/images/logo_firsthealth.png" alt="">
+                    <div class="login_form_layer">
+                        <h4>Sign Up</h4>
+                        <label for="Username">Username / Email address</label>
+                        <input type="text" name="Username" value="" placeholder="Username" id="name">
+                        <div class="login_pswrd_lbs">
+                            <label for="Password">Password </label>
+                            <a href="forgot-password.html" class="login_forgotpassword">Forgot Password?</a>
+                        </div>
+                        <input type="password" name="fpassword" value="" placeholder="********">
+
+                        <div class="text-center login_bottons">
+                            <button class="reset_bottons" type="submit" value="Reset">RESET</button>
+                            <button class="submit_bottons" type="submit" value="Submit"
+                                onclick="mfacode();">SUBMIT</button>
+                        </div>
+                        <div id="show-mfa" style="display: none;">
+                            <hr>
+                            <label for="MFA">MFA Code </label>
+                            <div class="mfa_code_iptbtn">
+                                <input type="text" name="Six Digit Code On E-mail/ Phone" value=""
+                                    placeholder="Six Digit Code On E-mail/ Phone" maxlength="6">
+                                <button class="submit_bottons" type="submit" value="Submit"
+                                    id="submitBtn">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="login-footer ">
+                    <div class="">
+                        <p>I Accept The Terms & Conditions, <br>Access Service
+                            Agreement, User Agreement</p>
+                        <p class="login_copy_linr2">
+
+                        </p>
+                        <p class="login_copy_right">© Copyright 2023, Firstsource Solutions Ltd. <br>All Rights
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> 
+</body>
+
+<script> 
+    function mfacode() {
+
+        const user = document.getElementById('name').value;
+
+        if (user == "") {
+            document.getElementById('show-mfa').style.display = 'none';
+        }
+        else {
+            document.getElementById('show-mfa').style.display = 'block';
+        }
+
+    }
+</script>
+<script>
+    document.getElementById("submitBtn").addEventListener("click", myFunction);
+    function myFunction() {
+        window.location.href = "dashboard.html";
+    }
+</script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="assets/js/navbar.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/revolution-slider/extra-rev-slider1.js"></script>
+<script src="assets/js/revolution-slider/js/revolution.tools.min.js"></script>
+<script src="assets/js/revolution-slider/js/rs6.min.js"></script> 
+</html>

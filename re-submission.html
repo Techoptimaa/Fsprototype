@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FirstHealth Provider Portal</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="vendors/feather/feather.css">
+    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/typicons/typicons.css">
+    <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+
+    
+    <link rel="stylesheet" href="css/vertical-layout-light/new-style.css">
+    <link rel="stylesheet" href="css/vertical-layout-light/dde-ub.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.9.97/css/materialdesignicons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.9.97/css/materialdesignicons.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="./assets/css/jquery.dataTables.min.css">
+    <!-- endinject -->
+
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="js/select.dataTables.min.css">
+    <!-- End plugin css for this page -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <!-- <link rel="shortcut icon" href="images/favicon.png" /> -->
+
+
+
+</head>
+<style>
+    .set_up_costomers_form {
+            height: auto !important;
+    }
+</style>
+
+<body>
+    <div class="container-scroller">
+      
+      <!-- navbar start -->
+      <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+          <div>
+            <a class="navbar-brand brand-logo" href="dashboard.html">
+              <img src="./assets/images/logo-fh.png" alt="logo" />
+            </a>
+            <a class="navbar-brand brand-logo-mini" href="dashboard.html">
+              <img src="./assets/images/logo-side-small.png" alt="logo" />
+            </a>
+          </div>
+          <div class="ms-5">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+              <span class="icon-menu right_side_menu_icon"></span>
+              <span class="mdi mdi-window-close right_side_min" ></span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="navbar-menu-wrapper d-flex align-items-top">
+  
+          <ul class="navbar-nav mobile_d_none ms-auto">
+  
+  
+            <li class="nav-item dropdown top-nav-right-icon">
+              <a class="nav-link count-indicator" href="#" data-bs-toggle="dropdown">
+                <img src="svg/home-icon.svg" alt="Home" />                
+              </a>
+            </li>
+  
+  
+  
+            <li class="nav-item dropdown  top-nav-right-icon">
+              <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="svg/notifications-icon.svg" alt="Notifications" />
+              </a>
+  
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0"
+                aria-labelledby="countDropdown">
+  
+                <a class="dropdown-item  preview-item notify-mails">
+                  <div class="preview-thumbnail">
+                    <i class="mdi mdi-help-circle-outline img-sm profile-pic"></i>
+                    
+                      
+                  </div>
+                  <div class="preview-item-content flex-grow py-2">
+                    <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                      your queue from 30 days </p>
+                    <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                  </div>
+                </a>
+  
+                <a class="dropdown-item  preview-item notify-mails">
+                  <div class="preview-thumbnail">
+                    <i class="mdi mdi-help-circle-outline img-sm profile-pic"></i>
+                  </div>
+                  <div class="preview-item-content flex-grow py-2">
+                    <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                      your queue from 30 days </p>
+                    <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                  </div>
+                </a>
+                <a class="dropdown-item  preview-item notify-mails">
+                  <div class="preview-thumbnail">
+                    <i class="mdi mdi-help-circle-outline  img-sm profile-pic"></i>
+                  </div>
+                  <div class="preview-item-content flex-grow py-2">
+                    <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                      your queue from 30 days </p>
+                    <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+  
+            <li class="nav-item dropdown top-nav-right-icon">
+              <a class="nav-link count-indicator" href="#" data-bs-toggle="dropdown">
+                <img src="svg/alert-icon.svg" alt="Alert" />
+              </a>
+            </li>
+          
+          
+          
+              <li class="nav-item dropdown top-nav-right-icon">
+                <a class="nav-link count-indicator" href="#">
+                  <img src="svg/logout-icon.svg" alt="Logout" />
+                </a>
+              </li>
+    
+              <li class="nav-item dropdown top-nav-right-icon top-nav-right-last-2">
+                <a class="nav-link count-indicator" href="change-password.html">
+                  <img src="svg/setting-icon.svg" alt="Setting" />  
+                </a>
+              </li>
+              
+              
+
+  
+            <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+  
+              <a class="nav-link top-nav-right-profile" id="UserDropdown" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <!-- <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> -->
+                <p>John Doe (Finance) <i class="mdi mdi-menu-down"></i></p>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                <div class="dropdown-header text-center">
+                  <img class="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image">
+                  <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
+                  <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
+                </div>
+                <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My
+                  Profile <span class="badge badge-pill badge-danger">1</span></a>
+                <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i>
+                  Messages</a>
+                <a class="dropdown-item"><i
+                    class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activity</a>
+                <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i>
+                  FAQ</a>
+                <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+            data-bs-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- navbar End -->
+  
+  
+      <div class="container-fluid page-body-wrapper">
+        <!-- sidebar start -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">
+                <img src="svg/dashboard-icon.svg" alt="Dashboard" />
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
+                aria-controls="ui-basic">
+                <img src="svg/setup-icon.svg" alt="Setup" />
+                <span class="menu-title">Setup</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="customer-setup.html">Customer Setup</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="form-setup.html">Form Setup</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="project-setup.html">Project SetUp</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="role-setup.html">Role Setup</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="user-setup.html">User Setup</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="queue-setup.html">Queue SetUp</a></li>
+                  <li class="nav-item"> <a class="nav-link  nav-lnk-lst" href="customer-project-queue.html">Customer
+                      Project Queue SetUp</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
+                aria-controls="form-elements">
+                <img src="svg/claims-icon.svg" alt="Claims" />
+  
+                <span class="menu-title">Claims</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="form-elements">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="dde-hcfa.html">HCFA DDE</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="dde-ub.html">UB DDE</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="dde-ada.html">ADA DDE</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="web-upload.html">Web Upload</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="edit-claim.html">
+                <img src="svg/edit-claim.svg" alt="Edit Claim" />
+  
+                <span class="menu-title">Edit Claim</span>
+              </a>
+            </li>
+  
+  
+            <li class="nav-item">
+              <a class="nav-link" href="claim-status.html">
+                <img src="svg/claim-status-icon.svg" alt="Claim Status" />
+  
+                <span class="menu-title">Claim Status</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="re-submission.html">
+                <img src="svg/re-submission-icon.svg" alt="Re-Submission" />
+  
+                <span class="menu-title">Re-Submission</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="review.html">
+                <img src="svg/review-icon.svg" alt="Review" />
+                <span class="menu-title">Review</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="approve.html">
+                <img src="svg/approve-icon.svg" alt="Approve" />
+  
+                <span class="menu-title">Approve</span>
+              </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="claim-search.html">
+                <img src="svg/serach-icon.svg" alt="Claim Search" />
+  
+                <span class="menu-title">Claim Search</span>
+              </a>
+            </li>
+  
+  
+            <li class="nav-item">
+              <a class="nav-link" href="fields.html">
+                <img src="svg/fields-icon.svg" alt="Fields" />
+                <span class="menu-title">Fields</span>
+              </a>
+            </li>
+  
+  
+  
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                <img src="svg/reports-icon.svg" alt="Reports" />
+  
+                <span class="menu-title">Reports</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="tables">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="Claim-Summary-Report.html">Claim Summary Report</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="Claim-Volume-Report.html">Claim Volume Report</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="Claim-Status-Report.html">Claim Status Report</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="Claim-Aging-Report.html">Claim Aging Report</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="Payment-Ack-Summary-Report.html">Payment Ack Summary
+                      Report</a></li>
+                </ul>
+              </div>
+            </li>
+  
+          </ul>
+          <div class="side_bottom_text ">
+            <div class="side_bottom_text_main">
+              <div class="side_bottom_text_icon">
+                <i class="mdi mdi-help-circle-outline"></i>
+              </div>
+              <h4>Need Help with firstHealth?</h4>
+              <h6><a href="">Go to help center</a></h6>
+            </div>
+            
+          </div>
+        </nav>
+        <!-- sidebar end -->
+
+            <!-- main dashboard start -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <!-- main_dashboard -->
+                            <div class="main_dashboard main-dashboard-2">
+                                <div class="main_dashboard_hesdings">
+                                    <h2>
+                <img src="svg/re-submission-icon.svg" alt="Re-Submission" class="nav_icns_mn" >Re-Submission
+                                    </h2>
+                                    <!--<h6>-->
+                                    <!--    <a class="btn btn-primary-1  tab">-->
+                                    <!--        <div class="bashboard-btn-pop add-client-btn tablinks btn active"-->
+                                    <!--            onclick="openCity(event, 'Description')">-->
+                                    <!--            <i class="mdi mdi-plus-circle add-btn-icon"></i>-->
+                                    <!--            <p> Add New Claim</p>-->
+                                    <!--        </div>-->
+                                    <!--    </a>-->
+                                    <!--</h6>-->
+                                </div>
+
+
+                                <!-- table -->
+                                <div class="table-kc-edit table-responsive table-db-inside bashborde_talbe_02">
+                                    <table id="example" class="display table datatable" style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th>S No</th>
+                                                <th>DCN No</th>
+                                                <th>Patient Name</th>
+                                                <th>Customer Name</th>
+                                                <th>Claim Type</th>
+                                                <th>Project Name</th>
+                                                <th>Service Date</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <th>2345678901</th>
+                                                <th>John</th>
+                                                <th>FirstHealth</th>
+                                                <th>HCFA DDE</th>
+                                                <th>Insurance Claim</th>
+                                                <th>11/6/2023</th>
+                                                <th class="tbl-actn">
+                                                  <a href="#" class="tab">
+                                                      <div class="bashboard-btn-pop  tablinks  active"
+                                                        onclick="openCity(event, 'Description')">
+                                                      <i class="mdi mdi-lead-pencil" style="color:red;margin-right:10px;"></i>
+                                                      </div>
+                                                  </a>
+                                                  <a href="#" class="remove_tab"><i class="mdi mdi-trash-can-outline" style="color: #303778;"></i></a>
+                                                </th>
+                                            </tr>
+
+
+                                            <tr>
+                                                <th>2</th>
+                                                <th>2345678903</th>
+                                                <th>Kiran</th>
+                                                <th>FirstHealth</th>
+                                                <th>UB DDE</th>
+                                                <th>Insurance Claim</th>
+                                                <th>11/6/2023</th>
+                                                <th class="tbl-actn">
+                                                  <a href="#" class="tab">
+                                                      <div class="bashboard-btn-pop  tablinks  active"
+                                                        onclick="openCity(event, 'Description')">
+                                                      <i class="mdi mdi-lead-pencil" style="color:red;margin-right:10px;"></i>
+                                                      </div>
+                                                  </a>
+                                                  <a href="#" class="remove_tab"><i class="mdi mdi-trash-can-outline" style="color: #303778;"></i></a>
+                                                </th>
+                                            </tr>
+
+
+                                            <tr>
+                                                <th>3</th>
+                                                <th>2345678903</th>
+                                                <th>Jenny</th>
+                                                <th>FirstHealth</th>
+                                                <th>ADA DDE</th>
+                                                <th>Insurance Claim</th>
+                                                <th>11/6/2023</th>
+                                                <th class="tbl-actn">
+                                                  <a href="#" class="tab">
+                                                      <div class="bashboard-btn-pop  tablinks  active"
+                                                        onclick="openCity(event, 'Description')">
+                                                      <i class="mdi mdi-lead-pencil" style="color:red;margin-right:10px;"></i>
+                                                      </div>
+                                                  </a>
+                                                  <a href="#" class="remove_tab"><i class="mdi mdi-trash-can-outline" style="color: #303778;"></i></a>
+                                                </th>
+                                            </tr>
+
+                                            <tr>
+                                                <th>4</th>
+                                                <th>2345678904</th>
+                                                <th>Rachel</th>
+                                                <th>FirstHealth</th>
+                                                <th>ADA DDE</th>
+                                                <th>Insurance Claim</th>
+                                                <th>11/6/2023</th>
+                                                <th class="tbl-actn">
+                                                  <a href="#" class="tab">
+                                                      <div class="bashboard-btn-pop  tablinks  active"
+                                                        onclick="openCity(event, 'Description')">
+                                                      <i class="mdi mdi-lead-pencil" style="color:red;margin-right:10px;"></i>
+                                                      </div>
+                                                  </a>
+                                                  <a href="#" class="remove_tab"><i class="mdi mdi-trash-can-outline" style="color: #303778;"></i></a>
+                                                </th>
+                                            </tr>
+
+
+
+                                        </tbody>
+                                    </table>
+                                    <br>
+                                </div>
+                                <!-- table-end -->
+                                <hr>
+
+
+                                <!-- tab section Start-->
+
+                                <!-- // content-tabs-i // -->
+                                <div id="Description" class="tabcontent">
+
+                                    <div class="main_dashboard_bottom">
+                                        <div class="set_up_costomers_headings">
+                                            <h3>Claim(Edit)</h3>
+
+                                            <div class="main_dashboard_hesdings form_heading_clians ">
+                                                <h2>DDE Claim Form</h2>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="set_up_costomers_form dde-claim">
+                                            <img src="./assets/images/claims/UB-DDE-01.png" alt="">
+                                        </div>
+                                         -->
+
+                                         <div class="container">
+                                          <div class="tableBody" id="outertableBody">
+                                            <!-- <div id="outertableBody"> -->
+                                            <!-- Uniform Billings Form -->
+                                            <table>
+                                              <tbody>
+                                                <table>
+                                                  <tbody>
+                                                    <tr scope="row">
+                                                      <td class="col-lg-3 rtborder">1<input class="inputDecor" type="text" name=""></td>
+                                                      
+                                                      <td class="col-lg-3 rtborder">2<input class="inputDecor" type="text" name=""> </td>
+                                                     
+                                                      <td class="wid rtborder btborder">3 a PAT. CNTL #</td>
+                                                      <td class="col-lg-4 rtborder btborder"><input class="inputDecor" type="text"
+                                                          name=""></td>
+                                                      <td class="" style="color: #fff;background-color: #000;"> 4 TYPE OF BILL</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                      <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                      <td class="rtborder btborder bgCol">b. MED. REC. #</td>
+                                                      <td class=" rtborder btborder bgCol"><input class="inputDecor bgCol" type="text" name="">
+                                                      </td>
+                                                      <td class="btborde bgColr"> <input class="inputDecor " type="text" name=""></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                  
+                  
+                                                <table>
+                                                  <tr>
+                                                    <td class="col-lg-3 rtborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="col-lg-3 rtborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="col-lg-2 btborder rtborder "> 5 FED. TAX NO.</td>
+                                                    <td class="rtborder btborder bgCol" colspan="2">6 <span style="margin-left: 50px;">STATEMENT
+                                                        COVERS
+                                                        PERIOD</span> <br> <span style="margin-left: 60px;">From</span><span
+                                                        style="margin-left: 80px;">Through</span> </td>
+                                                    <td class="btborder"> <input class="inputDecor" type="text" name="">7</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder btborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder btborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class=" rtborder btborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder btborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="btborder rtborder"> <input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="btborder"> <input class="inputDecor" type="text" name=""></td>
+                                                  </tr>
+                                                </table>
+                  
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class=" rtborder bgCol">8 PATIENT NAME<span style="margin-left: 30px;"> </span>
+                                                    </td>
+                                                    <td class="rtborder bgCol"> a </td>
+                                                    <td class="col-lg-2 rtborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder bgCol"> 9 PATIENT ADDRESS <span style="margin-left: 30px;">
+                                                      </span>
+                                                    </td>
+                                                    <td class="rtborder bgCol"> a </td>
+                                                    <td class="btborder col-lg-9"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                  
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder bgCol"> b </td>
+                                                    <td class="col-lg-3 rtborder"> <input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder bgCol"> b </td>
+                                                    <td class="col-lg-5 rtborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder bgCol"> c </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder bgCol"> d </td>
+                                                    <td class="col-lg-2 rtborder"><input class="inputDecor" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder bgCol"> e </td>
+                                                    <td class=" "><input class="inputDecor" type="text" name=""></td>
+                                                  </tr>
+                                                </table>
+                  
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="col-lg-2 rtborder">10 BIRTHDATE</td>
+                                                    <td class="rtborder">11 Sex</td>
+                                                    <td class="rtborder btborder bgCol" colspan="4"> <span style="margin-left: 30px;">ADMISSION
+                                                      </span><br> 12DATE
+                                                      13HR 14TYPE 15SRC </td>
+                                                    <td class="rtborder "> 16 DHR </td>
+                                                    <td class="rtborder "> 17 STAT </td>
+                                                    <td class="rtborder bgCol" colspan="11"> CONDITION CODES<br> <span class="wdSpace">18
+                                                        19
+                                                        20 21 22 23 24 25 26
+                                                        27 28</span> </td>
+                                                    <td class="rtborder bgCol "> 29 ACDT STATE </td>
+                                                    <td class="rtborder bgCol "> 30 </td>
+                  
+                                                  </tr>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"> <input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"> <input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                </table>
+                  
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder btborder bgCol" colspan="2"> <span style="margin-left: 30px;">31
+                                                        OCCURRENCE </span><br>
+                                                      <span class="wdSpace"> CODE DATE </span>
+                                                    </td>
+                                                    <td class="rtborder btborder bgCol" colspan="2" style="color: #fff;background-color: #000;">
+                                                      <span style="margin-left: 30px;">32
+                                                        OCCURRENCE <br> </span> <span class="wdSpace"> CODE DATE </span> </td>
+                                                    <td class="rtborder btborder bgCol" colspan="2"> <span style="margin-left: 30px;">33
+                                                        OCCURRENCE </span><br>
+                                                      <span class="wdSpace"> CODE DATE</span>
+                                                    </td>
+                                                    <td class="rtborder btborder bgCol" colspan="2" style="color: #fff;background-color: #000;">
+                                                      <span style="margin-left: 30px;">34
+                                                        OCCURRENCE <br> <span class="wdSpace">CODE DATE</span> </td>
+                                                    <td class="rtborder btborder bgCol" colspan="3"> <span style="margin-left: 30px;">35
+                                                        OCCURRENCE SPAN
+                                                      </span><br> <span class="wdSpace">CODE FROM
+                                                        THROUGH</span> </td>
+                                                    <td class="rtborder btborder bgCol" colspan="3"> <span style="margin-left: 30px;">35
+                                                        OCCURRENCE SPAN
+                                                      </span><br> <span class="wdSpace"> CODE FROM
+                                                        THROUGH </span></td>
+                                                    <td class="rtborder btborder bgCol">37</td>
+                  
+                                                  </tr>
+                  
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"> <input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"> <input class="inputDecor" type="text" name=""></td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                  
+                                                  </tr>
+                                                  <tr class="btborder bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"> <input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"> <input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                  
+                                                  </tr>
+                                                </table>
+                                                <table>
+                                                  <tr>
+                                                    <td class="rtborder btborder" style="width: 350px;" rowspan="5">38 <textarea
+                                                        id="txtid" name="txtname" rows="4" cols="50" maxlength="200">
+                  
+                                                        </textarea></td>
+                                                    <td class="rtborder"> </td>
+                                                    <td class="rtborder btborder" colspan="3">39 VALUE CODES <br>
+                                                      <span class="wdSpace"> CODE AMOUNT</span>
+                                                    </td>
+                                                    <td class="rtborder btborder" colspan="3" style="color: #fff;background-color: #000;">
+                                                      39 VALUE CODES <br>
+                                                      <span class="wdSpace"> CODE AMOUNT</span>
+                                                    </td>
+                                                    <td class="rtborder btborder" colspan="3" style="color: #fff;background-color: #000;">
+                                                      39 VALUE CODES <br>
+                                                      <span class="wdSpace"> CODE AMOUNT</span>
+                                                    </td>
+                                                  </tr>
+                  
+                                                  <tr>
+                                                    <td class="rtborder ">a</td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                  
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="bgCol">
+                                                    <td class="rtborder ">b</td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                  
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder ">c</td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="btborder bgCol">
+                                                    <td class="rtborder ">d</td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                </table>
+                  
+                  
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder ">42 REV.CO.</td>
+                                                    <td class="rtborder ">43 DESCRIPTION</td>
+                                                    <td class="rtborder">44 HCPCS / RATE / HIPPS CODE </td>
+                                                    <td class="rtborder">45 SERV. DATE</td>
+                                                    <td class="rtborder">46 SERV. UNITS </td>
+                                                    <td class="rtborder" colspan="2">47 TOTAL CHARGES</td>
+                                                    <td class="rtborder" colspan="2">48 NON-COVERED CHARGES</td>
+                                                    <td>49</td>
+                                                  </tr>
+                  
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="btborder bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td>PAGE____OF____</td>
+                                                    <td class="rtborder"> CREATION DATE</td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder" style="color: #fff;background-color: #000;">TOTALS </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                  
+                                                </table>
+                  
+                  
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder bgCol" style="width: 350px;">50 PAYER NAME</td>
+                                                    <td class="rtborder bgCol " style="width: 200px;">51 HEALTH PLAN ID</td>
+                                                    <td class="rtborder bgCol" style="width: 45px; font-size: 12px;">52 REL INFO</td>
+                                                    <td class="rtborder bgCol" style="width: 40px;"></td>
+                                                    <td class="rtborder bgCol" style="width: 45px; font-size: 12px;">53 ASG. BEN. </td>
+                                                    <td class="rtborder bgCol" colspan="2">54 PRIOR PAYMENTS</td>
+                                                    <td class="rtborder bgCol" colspan="2">55 EST. AMOUNT DUE</td>
+                                                    <td class="rtborder bgCol">56 NPI</td>
+                                                    <td><input class="inputDecor" type="text" name=""></td>
+                                                  </tr>
+                  
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder">57</td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor bgCol" type="text" name="">
+                                                    </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder">OTHER </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtDotborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder">PRV ID </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                </table>
+                                                <table>
+                                                  <tr class="btborder bgCol">
+                                                    <td class="rtborder bgCol" style="width: 400px;">58 INSURED’S NAME</td>
+                                                    <td class="rtborder" style="width: 45px; font-size: 12px;">59 P.REL</td>
+                                                    <td class="rtborder" style="width: 300px;">60 INSURED’S UNIQUE ID</td>
+                                                    <td class="rtborder" style="width: 300px;">61 GROUP NAME</td>
+                                                    <td style="width: 300px;">62 INSURANCE GROUP NO. </td>
+                  
+                                                  </tr>
+                  
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                  
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                </table>
+                                                <table>
+                                                  <tr class="btborder bgCol">
+                                                    <td class="rtborder bgCol" style="width: 600px;">63 TREATMENT AUTHORIZATION CODES
+                                                    </td>
+                                                    <td class="rtborder " style="width: 600px;">64 DOCUMENT CONTROL NUMBER</td>
+                                                    <td style="width: 600px;">65 EMPLOYER NAME</td>
+                                                  </tr>
+                  
+                                                  <tr>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class=" bgCol">
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                </table>
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder bgCol">66 DX</td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td>68 <input class="inputDecor" type="text" name=""></td>
+                                                  </tr>
+                  
+                                                  <tr class="btborder">
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                  
+                                                </table>
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder bgCol bgCol">69 ADMIT DX</td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder bgCol">70 PATIENT REASON DX </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder bgCol">71 PPS CODE </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder bgCol">72 ECI </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""></td>
+                                                    <td>73<input class="inputDecor" type="text" name=""></td>
+                                                  </tr>
+                                                </table>
+                  
+                                                <table>
+                                                  <tr class="btborder">
+                                                    <td class="rtborder bgCol" colspan="2" >74 RINCIPAL PROCEDURE <br> CODE DATE</td>
+                                                    <td class="rtborder" colspan="2" style="color: #fff;background-color: #000;">a. OTHER PROCEDURE <br> CODE DATE</td>
+                                                    <td class="rtborder bgCol" colspan="2">b. OTHER PROCEDURE <br> CODE DATE</td>
+                                                    <td class="rtborder" colspan="3" rowspan="4">75</td>
+                                                    <!-- <td class="rtborder" ></td>
+                                                    <td class="rtborder" ></td> -->
+                                                    <td class="rtborder  bgCol" colspan="3">76.Attending</td>
+                                                    <td class="rtborder" colspan="10">NPI</td>
+                                                    <td  > </td>
+                                                    <td class="rtborder bgCol">QUAL </td>
+                                                    <td class="rtborder" colspan="2"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                  
+                                                  </tr>
+                  
+                                                  <tr class="btborder">
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder" ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder" ><input class="inputDecor" type="text" name=""> </td>
+                                                    <!-- <td class="rtborder" > </td>
+                                                    <td class="rtborder"  > </td> -->
+                                                    <td class="rtborder"  colspan="12" ><input class="inputDecor" type="text" name="" name="LAST" value="LAST" readonly="Last"> </td>
+                                                    <td ><input class="inputDecor"  type="text" value="First" readonly="First ">  </td>
+                                                    <td><input class="inputDecor"   type="text" name="" ></td>
+                                                  </tr>
+                  
+                  
+                                                  <tr class="btborder">
+                                                    <td class="rtborder" colspan="2" style="color: #fff;background-color: #000;">C. OTHER PROCEDURE <br> CODE DATE</td>
+                                                    <td class="rtborder bgCol" colspan="2">D. OTHER PROCEDURE <br> CODE DATE</td>
+                                                    <td class="rtborder" colspan="2" style="color: #fff;background-color: #000;">E. OTHER PROCEDURE <br> CODE DATE </td>
+                                                    <td class="rtborder bgCol" colspan="3">77.OPERATING</td>
+                                                    <!-- <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td> -->
+                                                    <td  colspan="10" > NPI</td>
+                                                    <td  > </td>
+                                                    <td class="rtborder bgCol">QUAL </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                  
+                                                  <tr class="btborder">
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder "><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <!-- <td class="rtborder"  > </td>
+                                                    <td class="rtborder"  > </td> -->
+                                                    <td class="rtborder"   ><input class="inputDecor" type="text" name="" name="LAST" value="LAST" readonly="Last"> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name="First" value="First" readonly="LAST"> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td><input class="inputDecor" type="text" name=""> </td>
+                                                  </tr>
+                                                  <tr class="btborder">
+                                                    <td ><input class="inputDecor" type="text" name=""> 80 REMARKS</td>
+                                                    <td ><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> 81.CC a</td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <!-- <td class="rtborder"><input class="inputDecor" type="text" name=""> </td> -->
+                                                    <td class="rtborder bgCol" colspan="3"> 78.OTHERS</td>
+                                                    <td  colspan="10" > NPI</td>
+                                                    <td  > </td>
+                                                    <td class="rtborder bgCol">QUAL </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <!-- <td><input class="inputDecor" type="text" name=""> </td> -->
+                                                  </tr>
+                  
+                                                  <tr class="btborder">
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder bgCol"> <br/>b </td>
+                                                    <td class="rtborder bgCol"> </td>
+                                                    <td class="rtborder bgCol" colspan="3"> </td>
+                                                    <td class="bgCol"> </td>
+                                                    <!-- <td class="rtborder bgCol"> </td> -->
+                                                    <!-- <td class="rtborder"><input class="inputDecor" type="text" name=""> </td> -->
+                                                    <td class="rtborder" colspan="6">Last </td>
+                                                    <td  colspan="10" > First</td>
+                                                    <!-- <td  > </td>
+                                                    <td class="rtborder bgCol">QUAL </td> -->
+                                                    <!-- <td class="rtborder"><input class="inputDecor" type="text" name=""> </td> -->
+                                                    <!-- <td><input class="inputDecor" type="text" name=""> </td> -->
+                                                  </tr>
+                                                  
+                                                  <tr class="btborder">
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> C</td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <!-- <td class="rtborder"><input class="inputDecor" type="text" name=""> </td> -->
+                                                    <td class="rtborder bgCol" colspan="3"> 79.OTHERS</td>
+                                                    <td  colspan="10" > NPI</td>
+                                                    <td  > </td>
+                                                    <td class="rtborder bgCol">QUAL </td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <!-- <td><input class="inputDecor" type="text" name=""> </td> -->
+                                                  </tr>
+                  
+                                                  <tr class="btborder">
+                                                    <td ><input class="inputDecor" type="text" name=""> </td>
+                                                    <td ><input class="inputDecor" type="text" name=""></td>
+                                                    <td class="rtborder"><input class="inputDecor" type="text" name=""> </td>
+                                                    <td class="rtborder bgCol"><input class="inputDecor bgCol" type="text" name=""> <br/>d </td>
+                                                    <td class="rtborder bgCol"><input class="inputDecor bgCol" type="text" name=""> </td>
+                                                    <td class="rtborder bgCol" colspan="3"><input class="inputDecor bgCol" type="text" name=""></td>
+                                                    <td > </td>
+                                                    <!-- <td class="rtborder bgCol"> </td> -->
+                                                    <!-- <td class="rtborder"><input class="inputDecor" type="text" name=""> </td> -->
+                                                    <td colspan="6">Last </td>
+                                                    <td  colspan="10" > First</td>
+                                                    <!-- <td  > </td>
+                                                    <td class="rtborder bgCol">QUAL </td> -->
+                                                    <!-- <td class="rtborder"><input class="inputDecor" type="text" name=""> </td> -->
+                                                    <!-- <td><input class="inputDecor" type="text" name=""> </td> -->
+                                                  </tr>
+                  
+                  
+                                                  
+                  
+                                                </table>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <br><br>
+                                        <div class="set_up_costomers_form dde-claim_flie">
+                                            <div class="file-upload">
+                                                <label for="upload" class="file-upload__label"> <i
+                                                        class="mdi mdi-cloud-upload"></i>Upload supporting
+                                                    documents</label>
+                                                <input id="upload" class="file-upload__input" type="file"
+                                                    name="file-upload">
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+
+                                    <div class="login_bottons set_upcstms_bottons">
+                                        <button class="login_bottons2" type="submit" value="Submit"
+                                            fdprocessedid="cmnage">Submit</button>
+                                        <button class="login_bottons1" type="submit" value="Submit"
+                                            fdprocessedid="w3w9g">CANCEL</button>
+                                        <button class="login_bottons2 login_mbl_btn" type="submit" value="Submit"
+                                            fdprocessedid="cmnage">SAVE</button>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- tab section End-->
+
+
+
+
+
+                            </div>
+                            <!-- main_dashboard end  -->
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main dashboard end -->
+
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+        <footer class="footer-all">
+            <div class="">
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">© Copyright 2023, Firstsource
+                    Solutions
+                    Ltd. All Rights Reserved.</span>
+            </div>
+        </footer>
+    </div>
+    <!-- container-scroller -->
+
+    <!-- plugins:js -->
+    <script>
+        includeHTML();
+    </script>
+
+
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+
+
+
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="vendors/chart.js/Chart.min.js"></script>
+    <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="vendors/progressbar.js/progressbar.min.js"></script>
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="js/dashboard.js"></script>
+    <script src="js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+
+    <!-- kiran js -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+
+  <!--zero configration -->
+  <script src="./assets/js/jquery.dataTables.min.js"></script>
+  <script src="./assets/js/jquery-3.7.0.js"></script>
+    <script>
+        new DataTable('#example');
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,368 @@
+
+
+/* ========================================= */
+.login_page{
+    max-width: 1440px;
+    display: flex;
+    width: 100%;
+    height: 998px;
+    margin: 0 auto;
+    background-image: url(../images/time/login.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.rp_san_logo{
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    width: 200px;
+}
+
+
+.login_form_box{
+    width: 532px;
+    background-color: #F5F7FE;
+    padding: 0px 50px;
+    float: right;
+    margin: 0 0 0 auto;
+   
+}
+
+.login_form_box img{
+     width: 247px;;
+    margin: 0 auto;        
+    display: flex;
+    margin-top: 116px;
+}
+
+.login_form_layer{
+    background-color: #fff;
+    padding: 25px;
+    width: 400px;
+    height: 417px;
+    border-radius: 8px;
+    margin: 40px 0px 30px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.login_form_layer h4{
+    font-size: 22px;
+    color: #EE3F5F;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 20px;
+
+}
+
+.login_form_layer label{
+   font-size:14px;
+   color: #303778;
+   font-weight: 500;
+}
+
+.login_pswrd_lbs{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=text], input[type=email], input[type=phone], input[type=mobile], select, textarea input[type=date], .touch-space  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+    background-color: #ffffff;
+  }
+
+.login_form_layer input{
+    border-radius: 8px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+
+.login_bottons{
+
+}
+.login_bottons{
+    margin: 5px 70px;
+}
+
+.login_bottons1{
+    background-color: #303778;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    width:87px;
+    height : 32px;
+    line-height: 18px;
+    margin: 0px 5px;
+}
+
+.login_bottons2{
+    background-color: #EE3F5F;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    width:87px;
+    height : 32px;
+    margin: 0px 5px;
+
+}
+.login_form_box h5{
+    color: #303778;
+}
+.mfa_code_iptbtn{
+    display: flex;
+    align-items: center;
+}
+
+.login_form_box p{
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 338px;
+    height: 42px;
+    color: #303778;
+}
+
+.login_copy_right{
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 338px;
+    height: 42px;
+    color: #7C7E84 !important;
+}
+.login_copy_linr2{
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 4px;
+    border: 0;
+    border-top: 1px solid #b2b2b2;
+    width: 254px;
+}
+
+/* ============== */
+.resetp_botton{
+    text-align: center;
+}
+
+.forgot_password_para{
+    padding: 0px !important;
+    margin: 0px 0px 15px 0px !important;
+    width: 381px !important;
+    text-align: left !important;
+
+}
+
+
+/* main_dashboard */
+
+.main_dashboard{
+    /*width: 1440px;*/
+        /*width: calc(100% - 270px);*/
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0px auto 20px;
+}
+
+.main_dashboard{
+
+}
+
+.main_dashboard_graphs{
+    margin-bottom: 20px;
+}
+
+.main_dashboard_hesdings h2 img{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+.main_dashboard_hesdings h2{
+    color: #303778;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+.main_dashboard_graphs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main_dashboard_graphs img{
+    width: 432px;
+    height: 299px;
+}
+
+.main_dashboard_hesdings h6{
+    text-align: end;
+}
+
+.main_dashboard_hesdings button{
+    text-align: right;
+}
+
+.main_dashboard_hesdings button{
+    background-color: #EE3F5F;
+    color: #fff;
+    border: none;
+    padding: 8px 17px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    width: 149px;
+    height: 32px;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+.main_dashboard_hesdings button a:hover{
+    text-decoration: none;
+}
+
+.main_dashboard_hesdings button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+
+/* modaldialog */
+
+.modal-dialog {
+    width: 93% !important;
+    margin: 40px auto !important;
+}
+
+.modal-header {
+    padding: 20px 30px !important;
+    border-bottom: 1px solid #e5e5e5  !important;
+    display: flex;
+}
+
+
+.modal-title{
+    font-size: 22px;
+    color: #636466;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 0px;
+}   
+
+.modal-header .close {
+    margin-top: -2px;
+    margin: auto 0 auto auto !important;
+}
+
+.close:focus, .close {
+    color: #000 !important;
+
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.close {
+    font-size: 30px !important;
+}
+
+/* screapt boxs */
+
+.set_up_costomers_headings h3{
+    font-size: 22px;
+    color: #EE3F5F;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.set_up_costomers_box{
+    display: flex;
+}
+
+.set_up_costomers_form{
+    display: flex;
+    align-items: center;
+}
+
+.set_up_costomers_form label{
+    font-size: 14px;
+    color: #303778;
+    font-weight: 500;
+    width: 170px;
+}
+
+.set_up_costomers_form input{
+    border-radius: 8px;
+    height: 38px;
+    margin-top: 10px;
+    width: 240px;
+    border: 1px solid #7C7E84;
+    color: #7C7E84;
+    padding: 9px 16px;
+}
+
+
+.set_up_costomers_box{
+    display: flex;
+    justify-content: space-between;
+}
+.theme_section_main h3{
+    color: #303778;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.set_up_costomers_form_radio{
+    display: flex;
+    width: 172px;
+}
+
+.set_up_costomers_form_radio input{
+    width: 16px  !important;
+    margin-right: 3px;
+    margin-top: 1px !important;
+    padding: 0px !important;
+    height: 16px !important;
+}
+
+.set_upcstms_bottons{
+    text-align: center;
+}
+@media (max-width:1440px) {
+    .rp_san_logo {
+        position: absolute;
+        top: 10%;
+        right: 50%;
+    }
+    .login_page{
+        background-size: cover;
+    }
+}

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>FirstHealth Provider Portal</title>
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/typicons/typicons.css">
+  <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+
+  <!-- kiran -->
+  <link rel="stylesheet" href="css/vertical-layout-light/new-style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.9.97/css/materialdesignicons.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.9.97/css/materialdesignicons.css">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./assets/css/jquery.dataTables.min.css">
+  <!-- endinject -->
+
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <!-- <link rel="shortcut icon" href="images/favicon.png" /> -->
+
+
+
+</head>
+<style>
+  @media (max-width: 1450px) {
+    .table-responsive {
+      overflow-x: scroll !important;
+    }
+    .table-responsive::-webkit-scrollbar {
+      width: 12px;
+    }
+    
+    table.dataTable>thead>tr>th, table.dataTable>thead>tr>td {
+        padding: 8px !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        padding-right: 21px !important;
+    }
+  }
+</style>
+
+<body>
+  <div class="container-scroller">
+      
+    <!-- navbar start -->
+    <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+        <div>
+          <a class="navbar-brand brand-logo" href="dashboard.html">
+            <img src="./assets/images/logo-fh.png" alt="logo" />
+          </a>
+          <a class="navbar-brand brand-logo-mini" href="dashboard.html">
+            <img src="./assets/images/logo-side-small.png" alt="logo" />
+          </a>
+        </div>
+        <div class="ms-5">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+            <span class="icon-menu right_side_menu_icon"></span>
+            <span class="mdi mdi-window-close right_side_min" ></span>
+          </button>
+        </div>
+      </div>
+      
+      <div class="navbar-menu-wrapper d-flex align-items-top">
+
+        <ul class="navbar-nav mobile_d_none ms-auto">
+
+
+          <li class="nav-item dropdown top-nav-right-icon">
+            <a class="nav-link count-indicator" href="#" data-bs-toggle="dropdown">
+              <img src="svg/home-icon.svg" alt="Home" />                
+            </a>
+          </li>
+
+
+
+          <li class="nav-item dropdown  top-nav-right-icon">
+            <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="svg/notifications-icon.svg" alt="Notifications" />
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0"
+              aria-labelledby="countDropdown">
+
+              <a class="dropdown-item  preview-item notify-mails">
+                <div class="preview-thumbnail">
+                  <i class="mdi mdi-help-circle-outline img-sm profile-pic"></i>
+                  
+                    
+                </div>
+                <div class="preview-item-content flex-grow py-2">
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                    your queue from 30 days </p>
+                  <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                </div>
+              </a>
+
+              <a class="dropdown-item  preview-item notify-mails">
+                <div class="preview-thumbnail">
+                  <i class="mdi mdi-help-circle-outline img-sm profile-pic"></i>
+                </div>
+                <div class="preview-item-content flex-grow py-2">
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                    your queue from 30 days </p>
+                  <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                </div>
+              </a>
+              <a class="dropdown-item  preview-item notify-mails">
+                <div class="preview-thumbnail">
+                  <i class="mdi mdi-help-circle-outline  img-sm profile-pic"></i>
+                </div>
+                <div class="preview-item-content flex-grow py-2">
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                    your queue from 30 days </p>
+                  <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown top-nav-right-icon">
+            <a class="nav-link count-indicator" href="#" data-bs-toggle="dropdown">
+              <img src="svg/alert-icon.svg" alt="Alert" />
+            </a>
+          </li>
+          
+          
+              <li class="nav-item dropdown top-nav-right-icon">
+                <a class="nav-link count-indicator" href="#">
+                  <img src="svg/logout-icon.svg" alt="Logout" />
+                </a>
+              </li>
+    
+              <li class="nav-item dropdown top-nav-right-icon top-nav-right-last-2">
+                <a class="nav-link count-indicator" href="change-password.html">
+                  <img src="svg/setting-icon.svg" alt="Setting" />  
+                </a>
+              </li>
+              
+              
+
+          <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+
+            <a class="nav-link top-nav-right-profile" id="UserDropdown" href="#" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <!-- <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> -->
+              <p>John Doe (Finance) <i class="mdi mdi-menu-down"></i></p>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+              <div class="dropdown-header text-center">
+                <img class="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image">
+                <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
+                <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
+              </div>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My
+                Profile <span class="badge badge-pill badge-danger">1</span></a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i>
+                Messages</a>
+              <a class="dropdown-item"><i
+                  class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activity</a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i>
+                FAQ</a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+          data-bs-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- navbar End -->
+
+
+    <div class="container-fluid page-body-wrapper">
+      <!-- sidebar start -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">
+              <img src="svg/dashboard-icon.svg" alt="Dashboard" />
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
+              aria-controls="ui-basic">
+              <img src="svg/setup-icon.svg" alt="Setup" />
+              <span class="menu-title">Setup</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="customer-setup.html">Customer Setup</a></li>
+                <li class="nav-item"> <a class="nav-link" href="form-setup.html">Form Setup</a></li>
+                <li class="nav-item"> <a class="nav-link" href="project-setup.html">Project SetUp</a></li>
+                <li class="nav-item"> <a class="nav-link" href="role-setup.html">Role Setup</a></li>
+                <li class="nav-item"> <a class="nav-link" href="user-setup.html">User Setup</a></li>
+                <li class="nav-item"> <a class="nav-link" href="queue-setup.html">Queue SetUp</a></li>
+                <li class="nav-item"> <a class="nav-link  nav-lnk-lst" href="customer-project-queue.html">Customer
+                    Project Queue SetUp</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
+              aria-controls="form-elements">
+              <img src="svg/claims-icon.svg" alt="Claims" />
+
+              <span class="menu-title">Claims</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="dde-hcfa.html">HCFA DDE</a></li>
+                <li class="nav-item"> <a class="nav-link" href="dde-ub.html">UB DDE</a></li>
+                <li class="nav-item"> <a class="nav-link" href="dde-ada.html">ADA DDE</a></li>
+                <li class="nav-item"> <a class="nav-link" href="web-upload.html">Web Upload</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="edit-claim.html">
+              <img src="svg/edit-claim.svg" alt="Edit Claim" />
+
+              <span class="menu-title">Edit Claim</span>
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="claim-status.html">
+              <img src="svg/claim-status-icon.svg" alt="Claim Status" />
+
+              <span class="menu-title">Claim Status</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="re-submission.html">
+              <img src="svg/re-submission-icon.svg" alt="Re-Submission" />
+
+              <span class="menu-title">Re-Submission</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="review.html">
+              <img src="svg/review-icon.svg" alt="Review" />
+              <span class="menu-title">Review</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="approve.html">
+              <img src="svg/approve-icon.svg" alt="Approve" />
+
+              <span class="menu-title">Approve</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="claim-search.html">
+              <img src="svg/serach-icon.svg" alt="Claim Search" />
+
+              <span class="menu-title">Claim Search</span>
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="fields.html">
+              <img src="svg/fields-icon.svg" alt="Fields" />
+              <span class="menu-title">Fields</span>
+            </a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              <img src="svg/reports-icon.svg" alt="Reports" />
+
+              <span class="menu-title">Reports</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="tables">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="Claim-Summary-Report.html">Claim Summary Report</a></li>
+                <li class="nav-item"> <a class="nav-link" href="Claim-Volume-Report.html">Claim Volume Report</a></li>
+                <li class="nav-item"> <a class="nav-link" href="Claim-Status-Report.html">Claim Status Report</a></li>
+                <li class="nav-item"> <a class="nav-link" href="Claim-Aging-Report.html">Claim Aging Report</a></li>
+                <li class="nav-item"> <a class="nav-link" href="Payment-Ack-Summary-Report.html">Payment Ack Summary
+                    Report</a></li>
+              </ul>
+            </div>
+          </li>
+
+        </ul>
+        <div class="side_bottom_text ">
+          <div class="side_bottom_text_main">
+            <div class="side_bottom_text_icon">
+              <i class="mdi mdi-help-circle-outline"></i>
+            </div>
+            <h4>Need Help with firstHealth?</h4>
+            <h6><a href="">Go to help center</a></h6>
+          </div>
+          
+        </div>
+      </nav>
+      <!-- sidebar end -->
+
+      <!-- main dashboard start -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-sm-12">
+
+              <!-- popup status -->
+              <div class="saaam">
+                <div id="popup1" class="overlay">
+                  <div class="popup ">
+                    <div class="pop-tp-nd">
+                      <h2>Advanced Search</h2>
+                      <a class="close" style="color:#000;" href="">&times;</a>
+                    </div>
+                    <hr>
+
+                    <div class="content">
+
+
+                      
+                      <div class="set_up_costomers_box">
+
+                        <div class="container-floud">
+                          <div class="row">
+                            <form action="">
+                              <div class="set_up_costomers_form_sub">
+
+                                <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                                  <div class="set_up_costomers_form">
+                                    <label for="#">Customer</label>
+                                    <input type="text" name="Username" value="" placeholder="Textfield">
+                                  </div>
+                                </div>
+
+                                <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                                  <div class="set_up_costomers_form">
+                                    <label for="cars"> Claim Type</label>
+                                    <select name="cars" id="cars"  class="ar_selectdiv">
+                                      <option value="volvo">Select Dropdown</option>
+                                      <option value="saab">sample1</option>
+                                      <option value="opel">sample2</option>
+                                    </select>
+                                  </div>
+                                </div>
+
+                                <div class="col-xxl-4 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-xs-12 input_lft_sd">
+                                </div>
+
+                                <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                                  <div class="set_up_costomers_form ">
+                                    <label for="#">From Date</label>
+                                    <input type="text" name="Username" value="" placeholder="Textfield">
+                                  </div>
+                                </div>
+
+                                <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                                  <div class="set_up_costomers_form ">
+                                    <label for="#">To Date</label>
+                                    <input type="date" name="Username" value="" placeholder="Textfield">
+                                  </div>
+                                </div>
+
+                                <div class="col-xxl-4 col-xl-12 col-lg-6 col-sm-12 col-sm-12 col-xs-12   input_lft_sd">
+                                </div>
+
+
+                                <br>
+                                <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12 col-xs-12"
+                                  style="text-align: center; padding-bottom: 20px;">
+                                  <div class="login_bottons set_upcstms_bottons">
+                                    <button class="login_bottons1" type="submit" value="Submit"
+                                      fdprocessedid="w3w9g">CANCEL</button>
+                                    <button class="login_bottons2" type="submit" value="Submit"
+                                      fdprocessedid="cmnage">SEARCH</button>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </form>
+
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+              <!-- main_dashboard -->
+              <div class="main_dashboard main-dashboard-2">
+                <div class="main_dashboard_hesdings top_from_pg">
+                  <h2>
+              <img src="svg/reports-icon.svg" alt="Reports"  class="nav_icns_mn">Reports /<span class="sub-dashboard-hd">Claim
+                      Summary Report</span>
+                  </h2>
+
+                  <h6>
+                    <div class=" main_dashboard_hesdings_boxpp box">
+                      <a class="button main_bash_rgt_btn mr-32" href="#popup1">
+                        <!--<i class="mdi mdi-magnify add-btn-icon"></i>-->
+                        <img src="svg/serach-icon-wht.svg" alt="Claim Search" class="nav_icns_mn"/>
+                        Advanced Search</a>
+                    </div>
+                  </h6>
+                  
+                </div>
+
+
+                <div class="">
+
+                  <div class="set_up_costomers_box">
+
+                    <div class="container-floud">
+                      <div class="row">
+                        <form action="">
+                          <div class="set_up_costomers_form_sub">
+
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                              <div class="set_up_costomers_form">
+                                <label for="#">Customer</label>
+                                <input type="text" name="Username" value="" placeholder="Textfield">
+                              </div>
+                            </div>
+
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                              <div class="set_up_costomers_form">
+                                <label for="cars"> Claim Type</label>
+                                <select name="cars" id="cars" class="ar_selectdiv">
+                                  <option value="volvo">Select Dropdown</option>
+                                  <option value="saab">sample1</option>
+                                  <option value="opel">sample2</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-xxl-4 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-xs-12 input_lft_sd">
+                            </div>
+
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                              <div class="set_up_costomers_form ">
+                                <label for="#">From Date</label>
+                                <input type="text" name="Username" value="" placeholder="Textfield">
+                              </div>
+                            </div>
+
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-sm-12 col-xs-12 input_lft_sd">
+                              <div class="set_up_costomers_form ">
+                                <label for="#">To Date</label>
+                                <input type="date" name="Username" value="" placeholder="Textfield">
+                              </div>
+                            </div>
+
+                            <div class="col-xxl-4 col-xl-12 col-lg-6 col-sm-12 col-sm-12 col-xs-12   input_lft_sd">
+                            </div>
+
+
+                            <br>
+                            <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12 col-xs-12"
+                              style="text-align: center;">
+                              <div class="login_bottons set_upcstms_bottons">
+                                <button class="login_bottons1" type="submit" value="Submit"
+                                  fdprocessedid="w3w9g">CANCEL</button>
+                                <button class="login_bottons2" type="submit" value="Submit"
+                                  fdprocessedid="cmnage">SEARCH</button>
+                              </div>
+                            </div>
+                          </div>
+
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+              </div></div>
+              
+
+
+              <div class="main_dashboard main-dashboard-2" style="margin: 0px auto 0px;">
+
+              <!-- tab section Start-->
+
+              <!-- // content-tabs-i // -->
+              <div >
+                <div class="main_dashboard_hesdings top_from_pg">
+                  <h6>
+                    <div class="main_dashboard_hesdings_boxpdf box">
+                      <div class="box-icons">
+                        <a class="button main_bash_rgt_btn  login_bottons1" href="">
+                        <img src="svg/file-earmark-spreadsheet.svg" alt="Excel Sheet" class="nav_icns_mn"/>
+                          Export Report</a>
+                      </div>
+                    </div>
+                  </h6>
+                </div>
+                <!-- table -->
+                <div class="table-kc-edit  table-responsive table-db-inside aft-frm-tble">
+                  <style>
+                    .dataTables_wrapper .dataTables_filter {
+                      display: none !important;
+                    }
+                  </style>
+                  <table id="example" class="display table datatable" style="width:100%">
+                    <thead>
+                      <tr>
+                        <th>Customer Name</th>
+                        <th>Patient Name</th>
+                        <th>DCN NO</th>
+                        <th>Service Start Date</th>
+                        <th>Claim Type</th>
+                        <th>Claim Charges</th>
+                        <th>Approved Amount</th>
+                        <th>Claim Submission Date</th>
+                        <th>Re-submissions Date</th>
+                        <th>Reject Reason</th>
+                        <th>Service End Date</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+
+                      <tr>
+                        <th>FirstHealth</th>
+                        <th>John Doe</th>
+                        <th>34562343469</th>
+                        <th>28/09/2023</th>
+                        <th>HCFA</th>
+                        <th>$ 1867</th>
+                        <th>$ 1500</th>
+                        <th>27/10/2023</th>
+                        <th>6/11/2023</th>
+                        <th>Claim Partially Paid</th>
+                        <th>17/11/2023</th>
+                      </tr>
+
+
+
+                    </tbody>
+                  </table>
+                  <br>
+                </div>
+              </div>
+
+              <!-- tab section End-->
+
+
+
+
+
+            </div>
+            <!-- main_dashboard end  -->
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- main dashboard end -->
+
+      <!-- partial -->
+    </div>
+    <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
+  <footer class="footer-all">
+    <div class="">
+      <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">© Copyright 2023, Firstsource Solutions
+        Ltd. All Rights Reserved.</span>
+    </div>
+  </footer>
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script>
+    includeHTML();
+  </script>
+
+
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+
+
+
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+  <script src="vendors/progressbar.js/progressbar.min.js"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
+  <!-- End custom js for this page-->
+
+  <!-- kiran js -->
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/custom.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+
+  <!--zero configration -->
+  <script src="./assets/js/jquery.dataTables.min.js"></script>
+  <script src="./assets/js/jquery-3.7.0.js"></script>
+  <script>
+    new DataTable('#example');
+  </script>
+
+</body>
+
+</html>

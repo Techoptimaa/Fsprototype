@@ -1,0 +1,123 @@
+#tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  }
+
+
+  #formdiv-heading {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.outertableBody{
+  width: 1040px;
+  height:1364px;
+}
+
+.container{
+    margin-top: 20px;
+}
+.title-font{
+    font-size: 13px;
+    color: #000;
+}
+.main-title{
+  font-size: 24px;
+    color: #E6252B;
+}
+
+.sub-title{
+    font-style: italic;
+    font-size: 12px;margin-bottom: 5px;
+    margin-top: 5px;
+}
+.bor-clr{
+    border: 1px solid #E6252B !important;
+    background-color: #fcf8f0;
+}
+.bor-clr-rht{
+  border-right: 1px solid #E6252B;
+}
+.bor-clr-lft{
+  border-left: 1px solid #E6252B;
+  border-bottom: 1px solid #E6252B;
+}
+.bor-clr-btm{
+  border-bottom: 1px solid #E6252B;
+}
+
+.vl {
+    border-right: 1px solid #E6252B;
+    height: 100%;
+  }
+  .inp-width{
+    width: 50px;
+    
+  }
+  .row-border{
+    border-bottom: 1px solid #E6252B;
+    width: 450px;
+  }
+
+
+  #sig-canvas {
+    border: 2px dotted #CCCCCC;
+    border-radius: 15px;
+    cursor: crosshair;
+  }
+
+  .inp-col-21{
+    border:2px solid #E6252B; 
+    padding: 5px 0px; 
+    margin: 5px 5px; 
+    width:180px;
+  }
+  .login_bottons2{
+    background-color: #EE3F5F;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    width:87px;
+    height : 32px;
+    margin: 0px 5px;
+
+}
+
+.set_up_costomers_form{
+    display: flex;
+    align-items: center;
+} 
+
+@media (max-width:600px) {
+    .set_up_costomers_form label {
+        margin-top: 0px;
+    }    
+    .set_up_costomers_form {
+        display: block;
+    }
+    .set_up_costomers_form input {
+        border-radius: 8px;
+        height: 35px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    select {
+        margin-top: 0px !important;
+        margin-bottom: 15px !important;
+    }
+    .set_up_costomers_form .toggle-next{
+        margin-top: 0px !important;
+        margin-bottom: 15px !important;
+    }
+    .set_up_costomers_form_radio {
+        margin-bottom: 15px;
+    }
+
+}
+

@@ -1,0 +1,38 @@
+.tableBody{
+    border: 1px solid #000;
+}
+.inputDecor{
+    text-decoration: none;
+    border: none;
+    width: 100%;
+}
+.inputDecor:focus-visible{
+    text-decoration: none;
+    border: none;
+    width: 100%;
+}
+
+.rtborder{
+    border-right: 1px solid black;
+}
+.btborder{
+    border-bottom: 1px solid #000;
+}
+.rtDotborder{
+    border-style: dotted;
+}
+.wid{
+    width: 70px;
+}
+.table>:not(caption)>*>* {
+    padding: 0rem 0rem !important;
+}
+.wd100{
+width: 100px;
+}
+.wdSpace{
+    word-spacing: 17px;
+}
+.bgCol{
+    background-color: #bebebe;
+}

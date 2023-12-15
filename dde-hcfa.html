@@ -1,0 +1,2174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>FirstHealth Provider Portal</title>
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/typicons/typicons.css">
+  <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+
+  <link rel="stylesheet" href="css/vertical-layout-light/dde-ada.css">
+  <link rel="stylesheet" href="css/vertical-layout-light/new-style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.9.97/css/materialdesignicons.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.9.97/css/materialdesignicons.css">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+  <!-- zero-configration -->
+  <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css"> -->
+  <link rel="stylesheet" href="./assets/css/jquery.dataTables.min.css">
+  <!-- endinject -->
+
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <!-- <link rel="shortcut icon" href="images/favicon.png" /> -->
+
+
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- navbar start -->
+        <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+                <div>
+                    <a class="navbar-brand brand-logo" href="dashboard.html">
+                        <img src="./assets/images/logo-fh.png" alt="logo" />
+                    </a>
+                    <a class="navbar-brand brand-logo-mini" href="dashboard.html">
+                        <img src="./assets/images/logo-side-small.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="ms-5">
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+                      <span class="icon-menu right_side_menu_icon"></span>
+                      <span class="mdi mdi-window-close right_side_min" ></span>
+                    </button>
+                </div>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-top">
+
+                <ul class="navbar-nav ms-auto">
+
+
+                    <li class="nav-item dropdown top-nav-right-icon">
+                      <a class="nav-link count-indicator" href="#">
+                        <img src="svg/home-icon.svg" alt="Home" />
+                      </a>
+                    </li>
+          
+          
+          
+          
+                    <li class="nav-item dropdown  top-nav-right-icon">
+                      <a class="nav-link count-indicator " id="countDropdown" href="#" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="svg/notifications-icon.svg" alt="Notifications" />
+          
+                      </a>
+          
+                      <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0"
+                        aria-labelledby="countDropdown">
+          
+                        <a class="dropdown-item  preview-item notify-mails">
+                          <div class="preview-thumbnail">
+                            <i class="mdi mdi-help-circle-outline" class="img-sm profile-pic"></i>
+                          </div>
+                          <div class="preview-item-content flex-grow py-2">
+                            <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                              your queue from 30 days </p>
+                            <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                          </div>
+                        </a>
+          
+                        <a class="dropdown-item  preview-item notify-mails">
+                          <div class="preview-thumbnail">
+                            <i class="mdi mdi-help-circle-outline" class="img-sm profile-pic"></i>
+                          </div>
+                          <div class="preview-item-content flex-grow py-2">
+                            <p class="preview-subject ellipsis font-weight-medium text-dark">Claim DCN 2303456786533 is waiting in
+                              your queue from 30 days </p>
+                            <p class="fw-light small-text mb-0"> 11/14/2023 11:30 Am</p>
+                          </div>
+                        </a>
+          
+                      </div>
+                    </li>
+          
+                    <li class="nav-item dropdown top-nav-right-icon">
+                      <a class="nav-link count-indicator " href="#">
+                        <img src="svg/alert-icon.svg" alt="Alert" />
+          
+                      </a>
+                    </li>
+          
+                      <li class="nav-item dropdown top-nav-right-icon">
+                        <a class="nav-link count-indicator" href="index.html">
+                          <img src="svg/logout-icon.svg" alt="Logout" />
+                        </a>
+                      </li>
+            
+                      <li class="nav-item dropdown top-nav-right-icon top-nav-right-last-2">
+                        <a class="nav-link count-indicator" href="change-password.html">
+                          <img src="svg/setting-icon.svg" alt="Setting" />  
+                        </a>
+                      </li>
+          
+                    <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+          
+                      <a class="nav-link top-nav-right-profile" id="UserDropdown" href="#" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <!-- <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> -->
+                        <p>John Doe (Finance) <i class="mdi mdi-menu-down"></i></p>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                        <div class="dropdown-header text-center">
+                          <img class="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image">
+                          <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
+                          <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
+                        </div>
+                        <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My
+                          Profile <span class="badge ">1</span></a>
+                        <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i>
+                          FAQ</a>
+                        <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
+                      </div>
+                    </li>
+                  </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-bs-toggle="offcanvas">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- navbar End -->
+
+
+        <div class="container-fluid page-body-wrapper">
+            <!-- sidebar start -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="dashboard.html">
+                        <img src="svg/dashboard-icon.svg" alt="Dashboard" />
+                        <span class="menu-title">Dashboard</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active"  href="#ui-basic"  data-bs-toggle="collapse" aria-expanded="true"
+                        aria-controls="ui-basic"> <img src="svg/setup-icon.svg" alt="Setup" />
+                        <span class="menu-title">Setup</span>
+                        <i class="menu-arrow"></i>
+                      </a>
+                      <div class="collapse" id="ui-basic">
+                        <ul class="nav flex-column sub-menu">
+                          <li class="nav-item"> <a class="nav-link" href="customer-setup.html">Customer Setup</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="form-setup.html">Form Setup</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="project-setup.html">Project SetUp</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="role-setup.html">Role Setup</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="user-setup.html">User Setup</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="queue-setup.html">Queue SetUp</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="customer-project-queue.html">Customer Project Queue
+                              SetUp</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  href="#form-elements" data-bs-toggle="collapse" aria-expanded="false"
+                        aria-controls="form-elements">
+                        <img src="svg/claims-icon.svg" alt="Claims" />
+                        <span class="menu-title">Claims</span>
+                        <i class="menu-arrow"></i>
+                      </a>
+                      <div class="collapse" id="form-elements">
+                        <ul class="nav flex-column sub-menu">
+                          <li class="nav-item"> <a class="nav-link" href="dde-hcfa.html">HCFA DDE</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="dde-ub.html">UB DDE</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="dde-ada.html">ADA DDE</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="web-upload.html">Web Upload</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  href="edit-claim.html" aria-expanded="false" aria-controls="charts">
+          
+                        <img src="svg/edit-claim.svg" alt="Edit Claim" />
+                        <span class="menu-title">Edit Claim</span>
+                      </a>
+                    </li>
+          
+          
+                    <li class="nav-item">
+                      <a class="nav-link"  href="claim-status.html" aria-expanded="false" aria-controls="charts">
+          
+                        <img src="svg/claim-status-icon.svg" alt="Claim Status" />
+                        <span class="menu-title">Claim Status</span>
+                      </a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link"  href="re-submission.html" aria-expanded="false" aria-controls="charts">
+          
+                        <img src="svg/re-submission-icon.svg" alt="Re-Submission" />
+                        <span class="menu-title">Re-Submission</span>
+                      </a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link"  href="review.html" aria-expanded="false" aria-controls="charts">
+                        <img src="svg/review-icon.svg" alt="Review" />
+                        <span class="menu-title">Review</span>
+                      </a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link"  href="approve.html" aria-expanded="false" aria-controls="charts">
+                        <img src="svg/approve-icon.svg" alt="Approve" />
+                        <span class="menu-title">Approve</span>
+                      </a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link"  href="claim-search.html" aria-expanded="false" aria-controls="charts">
+                        <img src="svg/serach-icon.svg" alt="Claim Search" />
+                        <span class="menu-title">Claim Search</span>
+                      </a>
+                    </li>
+          
+          
+                    <li class="nav-item">
+                      <a class="nav-link"  href="fields.html" aria-expanded="false" aria-controls="charts">
+                        <img src="svg/fields-icon.svg" alt="Fields" />
+                        <span class="menu-title">Fields</span>
+                      </a>
+                    </li>
+          
+          
+          
+                    <li class="nav-item">
+                      <a class="nav-link"  href="#tables" aria-expanded="false" data-bs-toggle="collapse" aria-controls="tables">
+                        <img src="svg/reports-icon.svg" alt="Reports" />
+                        <span class="menu-title">Reports</span>
+                        <i class="menu-arrow"></i>
+                      </a>
+                      <div class="collapse" id="tables">
+                        <ul class="nav flex-column sub-menu">
+                          <li class="nav-item"> <a class="nav-link" href="Claim-Summary-Report.html">Claim Summary Report</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="Claim-Volume-Report.html">Claim Volume Report</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="Claim-Status-Report.html">Claim Status Report</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="Claim-Aging-Report.html">Claim Aging Report</a></li>
+                          <li class="nav-item"> <a class="nav-link" href="Payment-Ack-Summary-Report.html">Payment Ack Summary Report</a></li>
+                        </ul>
+                      </div>
+                    </li>
+          
+                  </ul>
+
+                <div class="side_bottom_text">
+                    <div class="side_bottom_text_icon">
+                        <i class="mdi mdi-help-circle-outline"></i>
+                    </div>
+                    <h4>Need Help with firstHealth?</h4>
+                    <h6><a href="">Go to help center</a></h6>
+                </div>
+            </nav>
+            <!-- sidebar end -->
+
+            <!-- main dashboard start -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <!-- main_dashboard -->
+                            <div class="main_dashboard main-dashboard-2">
+                                <div class="main_dashboard_hesdings top_from_pg">
+                                    <h2>
+                                        <img src="svg/setup-icon.svg" alt=""></i>Claims/<span
+                                            class="sub-dashboard-hd">HCFA DDE</span>
+                                    </h2>
+
+                                </div>
+
+                                <div class="theme_section_main">
+                                    <form>
+                                        <div class="set_up_costomers_form_sub">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                  <!-- <hr style="height: 2px;"> -->
+                                                  <!-- <div class="formdiv-heading">
+                                                    <h2>New From</h2>
+                                                  </div> -->
+                                                </div>
+                                                <div class="col-lg-12 form-padding">
+                                                  <div class="col-md-6">
+                                                    <div class=" set_up_costomers_form">
+                                                      <div class="col-sm-4 form-padding">
+                                                        <label for="Select Customer" class="col-form-label">Select Payer </label>
+                                                      </div>
+                                                      <div class="col-sm-7">
+                        
+                                                        <select class="form-select" aria-label="Default select example">
+                                                          <option selected>Select Payer</option>
+                                                          <option value="1">Sample 1 </option>
+                                                          <option value="2">Sample 2 </option>
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                        
+                                                    <div class=" set_up_costomers_form">
+                                                      <div class="col-sm-4 form-padding">
+                                                        <label for="Select Project" class="col-form-label">Select Member </label>
+                                                      </div>
+                                                      <div class="col-sm-7">
+                        
+                                                        <select class="form-select" aria-label="Default select example">
+                                                          <option selected>Select Member</option>
+                                                          <option value="1">Sample 1 </option>
+                                                          <option value="2">Sample 2 </option>
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                                                    <div class=" set_up_costomers_form">
+                                                      <div class="col-sm-4 form-padding">
+                                                      </div>
+                                                      <div class="col-sm-7">
+                                                        <button class="login_bottons2" type="submit" value="Submit"
+                                                      fdprocessedid="cmnage">Enter</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div> 
+                                                <!-- Buttons  start-->
+                                                <!-- Buttons  start-->
+                                                </div>
+                                             <!-- <div class="main_dashboard_hesdings form_heading_clians ">
+                                                <h2>Health Care Financing Administration Form</h2>
+                                             </div> -->
+                                           
+                                             <div class="container-fluid">
+                                                <div class="container">
+                                                    <div class="main_dashboard_hesdings form_heading_clians ">
+                                                        <div class="name">
+                                                            <h2 class="text">Health Care Financing Administration Form</h2>
+                    
+                                                        </div>
+                                                    </div>
+                                                        <!--Block-1 starts-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-8 bor-clr-rht">
+                                                                <div class="row justify-content-between">
+                                                                    <div class="col-1 title-font">
+                                                                        <span class="title-font">1.MEDICARE</span>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input"
+                                                                                name="inlineRadioOptions"
+                                                                                type="checkbox" value="option1"
+                                                                                id="mcareone">
+                                                                            <label class="form-check-label"
+                                                                                for="defaultCheck1">
+                                                                                <span
+                                                                                    class="sub-title">(Medicare#)</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-1 title-font">
+                                                                        <span class="title-font">MEDICAID</span>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input"
+                                                                                name="inlineRadioOptions"
+                                                                                type="checkbox" value="option2"
+                                                                                id="mcaretwo">
+                                                                            <label class="form-check-label"
+                                                                                for="defaultCheck2">
+                                                                                <span
+                                                                                    class="sub-title">(Medicaid#)</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-1 title-font">
+                                                                        <span class="title-font">TRICARE</span>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" value="option3"
+                                                                                id="mcarethree">
+                                                                            <label class="form-check-label"
+                                                                                for="defaultCheck3">
+                                                                                <span
+                                                                                    class="sub-title">(ID#/DOD#)</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-1 title-font">
+                                                                        <span class="title-font">CHAMPVA</span>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" value="option4"
+                                                                                id="mcarefour">
+                                                                            <label class="form-check-label"
+                                                                                for="defaultCheck4">
+                                                                                <span class="sub-title">(Member
+                                                                                    ID#)</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-3 title-font">
+                                                                        <span class="title-font">GROUP HEALTH
+                                                                            PLAN</span>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" value="option5"
+                                                                                id="mcarefive">
+                                                                            <label class="form-check-label"
+                                                                                for="defaultCheck5">
+                                                                                <span class="sub-title">(ID#)</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-2 title-font">
+                                                                        <span class="title-font">FECA BLKLUNG</span>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" value="option5"
+                                                                                id="mcaresix">
+                                                                            <label class="form-check-label"
+                                                                                for="defaultCheck5">
+                                                                                <span class="sub-title">(ID#)</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-1 title-font">
+                                                                        <span class="title-font">OTHER</span>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" value="option5"
+                                                                                id="mcareseven">
+                                                                            <label class="form-check-label"
+                                                                                for="defaultCheck5">
+                                                                                <span class="sub-title">(ID#)</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4">
+
+                                                                <div class="form-group title-font">1a.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">INSURED'S ID. NUMBER</label>
+                                                                    <input type="email" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Block-1 ends-->
+
+                                                        <!--Block-2 starts-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-4 bor-clr-rht">
+                                                                <div class="form-group title-font">2.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">PATIENT'S NAME(Last
+                                                                        Name,First Name,Middle Name)</label>
+                                                                    <input type="email" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4 bor-clr-rht">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <div class="form-group title-font">3.
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">PATIENT'S BIRTH
+                                                                                DATE</label>
+                                                                            <input type="date"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp"
+                                                                                style="width: 100px;">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font"
+                                                                            style="padding-left: 30px;">SEX</label><br>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio1">M</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio2">F</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4">
+                                                                <div class="form-group title-font">4.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">INSURED'S NAME(Last
+                                                                        Name,First Name,Middle Name)</label>
+                                                                    <input type="email" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Block-2 ends-->
+
+                                                        <!--Block-3 starts-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-4 bor-clr-rht">
+                                                                <div class="form-group title-font">5.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">PATIENT'S ADDRESS(No.,
+                                                                        Street)</label>
+                                                                    <input type="email" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4 bor-clr-rht">
+
+                                                                <div class="form-group title-font">6.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">PATIENT RELATIONSHIP TO
+                                                                        INSURED</label><br>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <label class="form-check-label"
+                                                                            for="inlineRadio11">Self</label>
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            name="inlineRadioOptions" id="inlineRadio11"
+                                                                            value="option1">
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <label class="form-check-label"
+                                                                            for="inlineRadio22">Spouse</label>
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            name="inlineRadioOptions" id="inlineRadio22"
+                                                                            value="option2">
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <label class="form-check-label"
+                                                                            for="inlineRadio33">Child</label>
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            name="inlineRadioOptions" id="inlineRadio33"
+                                                                            value="option3">
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <label class="form-check-label"
+                                                                            for="inlineRadio44">Other</label>
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            name="inlineRadioOptions" id="inlineRadio44"
+                                                                            value="option4">
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-4">
+                                                                <div class="form-group title-font">7.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">INSURED'S ADDRESS(No.,
+                                                                        Street)</label>
+                                                                    <input type="email" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Block-3 ends-->
+
+                                                        <!--Block-5 starts-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-4 bor-clr-rht">
+                                                                <div class="row">
+                                                                    <div class="col-10 ">
+                                                                        <div class="form-group title-font">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">CITY</label>
+                                                                            <input type="text"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-2">
+                                                                        <div class="form-group title-font">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">STATE</label>
+                                                                            <input type="text"
+                                                                                class="form-control inp-width"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row bor-clr">
+                                                                    <div class="col-3">
+                                                                        <div class="form-group title-font">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">ZIP CODE</label>
+                                                                            <input type="email"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        <div class="vl"></div>
+                                                                    </div>
+                                                                    <div class="col-8">
+                                                                        <div class="row">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font"><span>TELEPHONE
+                                                                                    (Include Area Code)</span></label>
+                                                                            <div class="col-3">
+                                                                                </span><input type="text"
+                                                                                    class="form-control"
+                                                                                    style="width: 50px;">
+                                                                            </div>&nbsp;&nbsp;&nbsp;
+                                                                            <div class="col-7">
+                                                                                <input type="text" class="form-control"
+                                                                                    style="width: 150px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4">
+                                                                <div class="form-group title-font">8.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">RESERVED FOR NUCC USE</label>
+                                                                    <textarea class="form-control"
+                                                                        id="exampleInputEmail1" rows="3"></textarea>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4">
+                                                                <div class="row">
+                                                                    <div class="col-10 bor-clr">
+                                                                        <div class="form-group title-font">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">CITY</label>
+                                                                            <input type="text"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-2">
+                                                                        <div class="form-group title-font">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">STATE</label>
+                                                                            <input type="text"
+                                                                                class="form-control inp-width"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row bor-clr">
+                                                                    <div class="col-3">
+                                                                        <div class="form-group title-font">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">ZIP CODE</label>
+                                                                            <input type="email"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        <div class="vl"></div>
+                                                                    </div>
+                                                                    <div class="col-8">
+                                                                        <div class="row">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font"><span>TELEPHONE
+                                                                                    (Include Area Code)</span></label>
+                                                                            <div class="col-3">
+                                                                                </span><input type="text"
+                                                                                    class="form-control"
+                                                                                    style="width: 50px;">
+                                                                            </div>&nbsp;&nbsp;&nbsp;
+                                                                            <div class="col-7">
+                                                                                <input type="text" class="form-control"
+                                                                                    style="width: 150px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Block-5 ends-->
+
+                                                        <!--Block-6 starts-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-4 bor-clr-rht">
+                                                                <div class="row bor-clr-btm">
+                                                                    <div class="form-group title-font">9.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">OTHER INSURED'S NAME
+                                                                            (Last name, First Name,Middle
+                                                                            Initial)</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row bor-clr-btm">
+                                                                    <div class="form-group title-font">a.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">OTHER INSURED'S POLICY OR
+                                                                            GROUP NUMBER</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row bor-clr-btm">
+                                                                    <div class="form-group title-font">b.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">RESERVED FOR NUCC
+                                                                            USE</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row bor-clr-btm">
+                                                                    <div class="form-group title-font ">c.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">RESERVED FOR NUCC
+                                                                            USE</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="form-group title-font">d.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">INSURANCE PLAN NAME OR
+                                                                            PROGRAM NAME</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4">
+                                                                <div class="row" style="padding-top: 7px;">
+                                                                    <div class="form-group title-font">10.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">IS PATIENT CONDITION
+                                                                            RELATED TO :</label>
+                                                                    </div>
+                                                                </div><br>
+                                                                <div class="row">
+                                                                    <div class="form-group title-font">a.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">EMPLOYMENT (Current or
+                                                                            Previous)?</label><br>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio1">YES</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio2">NO</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="form-group title-font">b.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">AUTO ACCIDENT?
+                                                                        </label><br>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio1">YES</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio2">NO</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="form-group title-font">c.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">OTHER ACCIDENT?
+                                                                        </label><br>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio1">YES</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio2">NO</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                </div><br>
+                                                                <div class="row" style="border: 1px solid #E6252B;">
+                                                                    <div class="form-group title-font">10d.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">CLAIM CODES (Designated
+                                                                            by NUCC)</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4">
+                                                                <div class="row bor-clr-lft">
+                                                                    <div class="form-group title-font">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">11.INSURED'S NAME POLICY
+                                                                            GROUP OR FECA NUMBER</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row bor-clr-lft">
+                                                                    <div class="row">
+                                                                        <div class="col-6">
+                                                                            <div class="form-group title-font">
+                                                                                <label for="exampleInputEmail1"
+                                                                                    class="title-font">a.INSURED'S DATE
+                                                                                    OF BIRTH</label>
+                                                                                <input type="date"
+                                                                                    class="form-control sub-title"
+                                                                                    id="exampleInputEmail1"
+                                                                                    aria-describedby="emailHelp"
+                                                                                    style="width: 100px;">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font text-center"
+                                                                                style="padding-left: 30px;">SEX</label><br>
+                                                                            <div class="form-check form-check-inline">
+                                                                                <label class="form-check-label"
+                                                                                    for="inlineRadio1">M</label>
+                                                                                <input class="form-check-input"
+                                                                                    type="radio"
+                                                                                    name="inlineRadioOptions"
+                                                                                    id="inlineRadio1" value="option1">
+                                                                            </div>
+                                                                            <div class="form-check form-check-inline">
+                                                                                <label class="form-check-label"
+                                                                                    for="inlineRadio2">F</label>
+                                                                                <input class="form-check-input"
+                                                                                    type="radio"
+                                                                                    name="inlineRadioOptions"
+                                                                                    id="inlineRadio2" value="option2">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row bor-clr-lft">
+                                                                    <div class="row">
+                                                                        <div class="col-12">
+                                                                            <div class="row">
+                                                                                <label for="exampleInputEmail1"
+                                                                                    class="title-font"><span>b.OTHER
+                                                                                        CLAIM ID (Designated by
+                                                                                        NUCC)</span></label>
+                                                                                <div class="col-3">
+                                                                                    </span><input type="text"
+                                                                                        class="form-control"
+                                                                                        style="width: 50px;">
+                                                                                </div>&nbsp;&nbsp;&nbsp;
+                                                                                <div class="col-8">
+                                                                                    <input type="text"
+                                                                                        class="form-control">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row bor-clr-lft">
+                                                                    <div class="form-group title-font">c.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">INSURANCE PLAN NAME OR
+                                                                            PROGRAM NAME</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="form-group title-font">d.
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">IS THERE ANOTHER HEALTH
+                                                                            BENEFIT PLAN?</label><br>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio1">YES</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio2">NO</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                        <span><b>if yes, </b>complete items 9, 9a and
+                                                                            9d</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Block-6 ends-->
+
+                                                        <!--Block-7 starts-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-8">
+                                                                <div class="title-font"><span
+                                                                        style="font-weight: 600; font-size: 18px;">READ
+                                                                        BACK OF FORM BEFORE COMPLETING & SIGNING THIS
+                                                                        FORM.</span>
+                                                                    <label for="exampleInputEmail1" class="title-font">
+                                                                        12. PATIENTS OR AUTHORIZED PERSONS'S SIGNATURE I
+                                                                        authorize the release of
+                                                                        any medical or other information necessary to
+                                                                        process this claim.
+                                                                        I also request payment of government benefits
+                                                                        either to myself or to the party who accepts
+                                                                        assignment below.
+                                                                    </label>
+                                                                    <div class="col-12">
+                                                                        <div class="col-sm-2"
+                                                                            style="float: left;width: 5% !important; padding-top: 6px;">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio11" value="option1">
+                                                                        </div>
+                                                                        <div class="col-sm-2"
+                                                                            style="float: left;width: 40%;margin-right: 10%;">
+                                                                            <input type="text"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"></div>
+                                                                        <div class="col-sm-2"
+                                                                            style="width: 30%;float: left;"> <label
+                                                                                for="inputEmail3"
+                                                                                class=" col-form-label title-font"
+                                                                                style="float: left;margin-right: 10%;">Date
+                                                                                : </label><input type="date"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp"
+                                                                                style="width: 64%;float: left;"></div>
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                                <div>
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-4 bor-clr-lft">
+                                                                <div class="title-font"
+                                                                    style="font-size: 18px; font-weight: 600;">
+                                                                    <label for="exampleInputEmail1" class="title-font">
+                                                                        13. INSURED'S OR AUTHORIZED PERSONS'S SIGNATURE
+                                                                        I authorize payments of
+                                                                        medical benefits to the undersigned physician or
+                                                                        supplier for services described below.
+                                                                    </label>
+                                                                    SIGNED:
+                                                                    <div class="col-12">
+                                                                        <div class="col-sm-2"
+                                                                            style="float: left;width: 10% !important;padding-top: 6px;">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio11" value="option1">
+                                                                        </div>
+                                                                        <div class="col-sm-2"
+                                                                            style="float: left;width: 80%;margin-right: 10%;">
+                                                                            <input type="text"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"></div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                        <!--Block-6 ends-->
+
+                                                        <!-----------------------------Second Block------------------------->
+
+                                                        <!--Block-1 starts-->
+
+                                                        <div class="row bor-clr">
+                                                            <div class="col-4">
+                                                                <div class="row">
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">14.DATE OF CURRENT
+                                                                        ILLNESS,INJURY, or PREGNANCY (LMP)</label>
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 100px;margin-left: 10PX;">
+                                                                    <label for="inputEmail3"
+                                                                        class="col-sm-2 col-form-label title-font">QUAL.</label>
+                                                                    <div class="col">
+                                                                        <input type="email" class="form-control"
+                                                                            style="width: 150px;" id="inputEmail3">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4 bor-clr-lft bor-clr-rht">
+                                                                <div class="row">
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">15.OTHER DATE </label>
+                                                                    <label for="inputEmail3"
+                                                                        class="col-sm-2 col-form-label title-font">QUAL.</label>
+
+                                                                    <div class="col">
+                                                                        <input type="email" class="form-control"
+                                                                            style="width: 150px;" id="inputEmail3">
+                                                                    </div>
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 100px;">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <div class="row">
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">16.DATES PATIENT UNABLE TO
+                                                                        WORK IN CURRENT OCCUPATION</label>
+                                                                    <label for="inputEmail3"
+                                                                        class="col-sm-2 col-form-label title-font">FROM</label>
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 100px;">
+                                                                    <label for="inputEmail3"
+                                                                        class="col-sm-2 col-form-label title-font">TO</label>
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 100px;">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--Block-1 ends-->
+
+                                                        <!--Block-2 starts-->
+
+                                                        <div class="row bor-clr">
+                                                            <div class="col-4 bor-clr-rht">
+                                                                <div class="row">
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">17.NAME OF REFERRING PROVIDER
+                                                                        OR OTHER SOURCE</label>
+                                                                    <input type="email" class="form-control"
+                                                                        style="width: 100px;margin-left: 10PX;"
+                                                                        id="inputEmail3">
+                                                                    <input type="email" class="form-control"
+                                                                        style="width: 200px;margin-left: 5PX;"
+                                                                        id="inputEmail3">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <div class="row title-font bor-clr-lft">17a.
+                                                                    <input type="email" class="form-control"
+                                                                        style="width: 50px;margin-left: 10PX;"
+                                                                        id="inputEmail3">
+                                                                    <input type="email" class="form-control"
+                                                                        style="width: 250px;margin-left: 5PX;"
+                                                                        id="inputEmail3">
+                                                                </div>
+                                                                <div class="row title-font">17b.
+                                                                    <input type="email" class="form-control title-font"
+                                                                        style="width: 50px;margin-left: 10PX;"
+                                                                        id="inputEmail3" value="NPI" readonly>
+                                                                    <input type="email" class="form-control"
+                                                                        style="width: 250px;margin-left: 5PX;"
+                                                                        id="inputEmail3">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4 bor-clr-lft">
+                                                                <div class="row">
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">18.HOSPITALIZATION DATES
+                                                                        RELATED TO CURRENT SERVICES</label>
+                                                                    <label for="inputEmail3"
+                                                                        class="col-sm-2 col-form-label title-font">FROM</label>
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 100px;">
+                                                                    <label for="inputEmail3"
+                                                                        class="col-sm-2 col-form-label title-font">TO</label>
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 100px;">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--Block-2 ends-->
+
+                                                        <!--Block-3 starts-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-8 bor-clr-rht">
+                                                                <div class="form-group title-font">19.
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">ADDITIONAL CLAIM INFORMATION
+                                                                        (Designated by NUCC)</label>
+                                                                    <input type="email" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">20.OUTSIDE
+                                                                            LAB?</label><br>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio1">YES</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio2">NO</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="form-group title-font">
+                                                                            <label for="exampleInputEmail1"
+                                                                                class="title-font">$CHARGES</label>
+                                                                            <input type="text"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp"
+                                                                                style="width: 150px;">
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                      
+
+                                                        
+
+                                                        <!--Block-4 starts-->
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-8 bor-clr-rht">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">21.DIAGNOSIS OR NATURE OF ILLNESS
+                                                                    OR INJURY Relate A-L to Service Line Below
+                                                                    (24E)</label><br>
+
+                                                                <table>
+                                                                    <tr>
+                                                                        <td>A.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>B.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>C.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>D.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>E.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>F.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>G.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>H.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>I.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>J.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>K.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                        <td>L.</td>
+                                                                        <td><input type="text" class="form-control">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <div class="row bor-clr-lft">
+                                                                    <div class="col-6">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">22.RESUBMISSION
+                                                                            CODE</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">ORIGINAL REF. NO.</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">23.PRIOR AUTHORIZATION
+                                                                            NUMBER</label>
+                                                                        <input type="email"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-2">
+                                                                <div class="row">
+                                                                    <label for="exampleInputEmail1"
+                                                                        class="title-font">24. A. DATE(S) OF
+                                                                        SERVICE<br><span
+                                                                            style="margin-left:10%;">From</span><span
+                                                                            style="margin-left: 20%;">To</span></label>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">B.PLACE OF SERVICE</label>
+
+                                                            </div>
+                                                            <div class="col-1" style="width: 4%;">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">C.EMG</label><br>
+
+                                                            </div>
+                                                            <div class="col-3" style="width: 20%;">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">D.PROCEDURES, SERVICES, OR
+                                                                    SUPPLIES<br>
+                                                                    <span>CPT/HCPCS</span><span
+                                                                        style="margin-left: 15%;">MODIFIER</span>
+                                                                </label><br>
+
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">E.DIAGNOSIS POINTER</label><br>
+
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">F.CHARGES</label><br>
+
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">G.DAYS OR UNITS</label><br>
+
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">H.EPSDT FAMILY PLAN</label><br>
+
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <label for="exampleInputEmail1" class="title-font">I.ID.
+                                                                    QUAL </label><br>
+
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">J.RENDERING PROVIDER ID. #
+                                                                </label><br>
+
+                                                            </div>
+                                                        </div>
+                                                        <!----Block-1-->
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-2">
+                                                                <div class="row">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1" style="width: 4%;">
+                                                                <tr class="title-font">
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-3" style="width: 20%;">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"
+                                                                            value="NPI"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <!----Block-2-->
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-2">
+                                                                <div class="row">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1" style="width: 4%;">
+                                                                <tr class="title-font">
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-3" style="width: 20%;">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"
+                                                                            value="NPI"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                        </div>
+
+                                                        <!---Block-3-->
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-2">
+                                                                <div class="row">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1" style="width: 4%;">
+                                                                <tr class="title-font">
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-3" style="width: 20%;">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"
+                                                                            value="NPI"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                        </div>
+                                                        <!---Block-4-->
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-2">
+                                                                <div class="row">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1" style="width: 4%;">
+                                                                <tr class="title-font">
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-3" style="width: 20%;">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"
+                                                                            value="NPI"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                        </div>
+
+                                                        <!---Block-5-->
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-2">
+                                                                <div class="row">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1" style="width: 4%;">
+                                                                <tr class="title-font">
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-3" style="width: 20%;">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"
+                                                                            value="NPI"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                        </div>
+
+                                                        <!---Block-6-->
+                                                        <div class="row title-font bor-clr">
+                                                            <div class="col-2">
+                                                                <div class="row">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+                                                                    <input type="date" class="form-control sub-title"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        style="width: 90px;">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1" style="width: 4%;">
+                                                                <tr class="title-font">
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-3" style="width: 20%;">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+                                                                    <td><input type="text" style="width: 30px;"></td>
+
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"
+                                                                            value="NPI"></td>
+                                                                </tr>
+                                                            </div>
+                                                            <div class="col-1">
+                                                                <tr>
+                                                                    <td><input type="text" style="width: 60px;"></td>
+                                                                </tr>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <!---Block-7-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-3 bor-clr-rht">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">25.FEDERAL TAX I.D.
+                                                                            NUMBER</label>
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp"
+                                                                            style="width: 100px;">
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">SSN</label>
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp"
+                                                                            style="width: 60px;">
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">EIN</label>
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp"
+                                                                            style="width: 60px;">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-9">
+                                                                <div class="row">
+                                                                    <div class="col-2">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">26.PATIENT'S ACCOUNT
+                                                                            NO.</label>
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp"
+                                                                            style="width: 100px;">
+                                                                    </div>
+                                                                    <div class="col-3"
+                                                                        style="border: 1px solid #E6252B;">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">27.ACCEPT
+                                                                            ASSIGNMENT?<br><span>(For govt claims, see
+                                                                                back)</span></label>
+                                                                        <div
+                                                                            class="form-check form-check-inline title-font">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio1">YES</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio1" value="option1">
+                                                                        </div>
+                                                                        <div
+                                                                            class="form-check form-check-inline title-font">
+                                                                            <label class="form-check-label"
+                                                                                for="inlineRadio2">NO</label>
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio2" value="option2">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">28.TOTAL CHARGE<input
+                                                                                type="checkbox"
+                                                                                style="margin-left: 5px;"></label>
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp"
+                                                                            style="width: 100px;">
+                                                                    </div>
+                                                                    <div class="col-2"
+                                                                        style="border: 1px solid #E6252B;">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">29.AMOUNT PAID</label>
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp"
+                                                                            style="width: 100px;">
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font">30.RSVD FOR NUCC
+                                                                            USE</label>
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1"
+                                                                            aria-describedby="emailHelp"
+                                                                            style="width: 100px;">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!---Block-8-->
+                                                        <div class="row bor-clr">
+                                                            <div class="col-4">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <label for="exampleInputEmail1"
+                                                                            class="title-font"><b></b>31.SIGNATURE OF
+                                                                            PHYSICIAN OR SUPPLIER INCLUDING DEGREES OR
+                                                                            CREDENTIALS</b><br>
+                                                                            <span>(I oertify that the statements on the
+                                                                                reverse apply to this bill and are made
+                                                                                a part thereof.)</span>
+                                                                        </label>
+
+                                                                    </div>
+                                                                    <div class="col-12">
+                                                                        <div class="col-sm-2"
+                                                                            style="float: left;width: 10% !important; padding-top: 6px; ">
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox"
+                                                                                name="inlineRadioOptions"
+                                                                                id="inlineRadio11" value="option1">
+                                                                        </div>
+                                                                        <div class="col-sm-2"
+                                                                            style="float: left;width: 80%;margin-right: 10%;">
+                                                                            <input type="text"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"></div>
+                                                                        <div class="col-sm-2"
+                                                                            style="width:60%;float: left;"> <label
+                                                                                for="inputEmail3"
+                                                                                class=" col-form-label title-font"
+                                                                                style="float: left;margin-right: 10%;">Date
+                                                                                : </label><input type="date"
+                                                                                class="form-control sub-title"
+                                                                                id="exampleInputEmail1"
+                                                                                aria-describedby="emailHelp"
+                                                                                style="width: 64%;float: left;"></div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4 bor-clr-lft">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">32.SERVICE FACILITY LOCATION
+                                                                    INFORMATION</label>
+                                                                <div class="row">
+                                                                    <input type="text" class="form-control sub-title"
+                                                                        id="exampleInputEmail1">
+                                                                    <input type="text" class="form-control sub-title"
+                                                                        id="exampleInputEmail1">
+                                                                    <input type="text" class="form-control sub-title"
+                                                                        id="exampleInputEmail1">
+                                                                </div>
+                                                                <div class="row" style="margin-top: 5px;">
+                                                                    <div class="col-1 title-font">a.</div>
+                                                                    <div class="col-5 title-font">
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1">
+                                                                    </div>
+                                                                    <div class="col-1 title-font">b.</div>
+                                                                    <div class="col-5 title-font">
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4 bor-clr-lft">
+                                                                <label for="exampleInputEmail1"
+                                                                    class="title-font">33.BILLING PROVIDER INFO &
+                                                                    PH#</label>
+                                                                <div class="row">
+                                                                    <input type="text" class="form-control"
+                                                                        style="width: 50px;">&nbsp;&nbsp;&nbsp;
+                                                                    <input type="text" class="form-control"
+                                                                        style="width: 150px;">
+                                                                </div>
+                                                                <div class="row" style="margin-top: 5px;">
+                                                                    <input type="text" class="form-control sub-title"
+                                                                        id="exampleInputEmail1">
+                                                                    <input type="text" class="form-control sub-title"
+                                                                        id="exampleInputEmail1">
+                                                                    <input type="text" class="form-control sub-title"
+                                                                        id="exampleInputEmail1">
+                                                                </div>
+                                                                <div class="row" style="margin-top: 5px;">
+                                                                    <div class="col-1 title-font">a.</div>
+                                                                    <div class="col-5 title-font">
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1">
+                                                                    </div>
+                                                                    <div class="col-1 title-font">b.</div>
+                                                                    <div class="col-5 title-font">
+                                                                        <input type="text"
+                                                                            class="form-control sub-title"
+                                                                            id="exampleInputEmail1">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                      
+                                                    </div>
+                                                </div>
+                                                <br/><br/>
+                                                <div class="set_up_costomers_form dde-claim_flie">
+                                                    &ensp;&ensp;<div class="file-upload">
+                                                      <label for="upload" class="file-upload__label">
+                                                       <i class="mdi mdi-cloud-upload"></i>Upload
+                                                        supporting
+                                                        documents</label>
+                                                      <input id="upload" class="file-upload__input" type="file" name="file-upload">
+                                                    </div>
+                                                  </div>
+                                                  <br>
+                                                </div>
+                                                <br>
+                                            </div>
+
+                                            <div class="login_bottons set_upcstms_bottons">
+                                                <button class="login_bottons2" type="submit" value="Submit"
+                                                    fdprocessedid="cmnage">Submit</button>
+                                                <button class="login_bottons1" type="submit" value="Submit"
+                                                    fdprocessedid="w3w9g">CANCEL</button>
+                                                <button class="login_bottons2  login_mbl_btn" type="submit"
+                                                    value="Submit" fdprocessedid="cmnage">SAVE</button>
+                                            </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- main_dashboard end  -->
+                        </div>
+                    </div>
+                </div>
+                <!-- main dashboard end -->
+
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+        <footer class="footer-all">
+            <div class="">
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">© Copyright 2023,
+                    Firstsource Solutions
+                    Ltd. All Rights Reserved.</span>
+            </div>
+        </footer>
+    </div>
+    <!-- container-scroller -->
+
+    <!-- plugins:js -->
+    <script>
+        includeHTML();
+    </script>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+
+        /* -------------------------- type#2 -------------------------------------- */
+        var quickMultiSel = function (params) {
+            this.bl = params.bl;
+            this.br = params.br;
+            this.data = {};
+            for (var i = 0; i < params.btn.length; i++) {
+                params.btn[i].addEventListener("click", this, false);
+            }
+        };
+
+        quickMultiSel.prototype = {
+            handleEvent: function (event) {
+                var action = $(event.target).attr("data-qml");
+                console.log("target:", action);
+                if (action == "left") {
+                    this.data.from = this.br;
+                    this.data.to = this.bl;
+                    this._shiftItems();
+                } else if (action == "right") {
+                    this.data.from = this.bl;
+                    this.data.to = this.br;
+                    this._shiftItems();
+                } else if (action == "item") {
+                    $(event.target).toggleClass("locked");
+                } else {
+                    console.log("Ooooopsie!");
+                }
+            },
+            _shiftItems: function () {
+                this.data.from.find(".locked").appendTo(this.data.to).removeClass("locked");
+            }
+        };
+
+        $(document).ready(function () {
+            var params = {
+                bl: $("#l_box"),
+                br: $("#r_box"),
+                btn: $("#set2 .ctrl-box,#set2 .open-item")
+            };
+            var ms = new quickMultiSel(params);
+        });
+
+    </script>
+
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="vendors/chart.js/Chart.min.js"></script>
+    <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="vendors/progressbar.js/progressbar.min.js"></script>
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="js/dashboard.js"></script>
+    <script src="js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+
+ 
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+
+    <!--zero configration -->
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        new DataTable('#example');
+    </script>
+
+</body>
+
+</html>
